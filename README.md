@@ -50,3 +50,8 @@ To execute the program, run **main.py** program. It automatically calls the code
 2. **moons_data.csv** -      Labeled dataset datset containing 25 half moon pairs, that is 50 clusters corresponding to 50 individual half moons. Any number of                                half moon pairs can be generated using **gen_moonpairs.py** program.
 3. **groundtruth.csv** -     Contains class labels for data points in **moon_data.csv**.  
 
+
+## Contact Information
+
+Nachiket Bhide - bhiden@uwindsor.ca
+Dr.Luis Rueda  - lrueda@uwindsor.ca
