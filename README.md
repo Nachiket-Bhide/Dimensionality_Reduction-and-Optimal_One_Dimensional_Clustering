@@ -46,7 +46,7 @@ To execute the program, run **main.py** program. It automatically calls the code
 
 ## Datasets Used
 
-**English Letters.csv** - Labeled real world dataset containing 20,000 samples of 26 letters of English alphabets. Each sample is a 16 dimensional                                           encoding, and there 26 different class labels corresponding to 26 letters of the English alphabet. Class labels(letter names) are in                               same file. 
-**moons_data.csv** -      Labeled dataset datset containing 25 half moon pairs, that is 50 clusters corresponding to 50 individual half moons. Any number of half                           moon pairs can be generated using **gen_moonpairs.py** program.
-**groundtruth.csv** -     Contains class labels for data points in **moon_data.csv**.  
+1. **English Letters.csv** - Labeled real world dataset containing 20,000 samples of 26 letters of English alphabets. Each sample is a 16 dimensional                                          encoding, and there 26 different class labels corresponding to 26 letters of the English alphabet. Class labels(letter names) are in                              same file. 
+2. **moons_data.csv** -      Labeled dataset datset containing 25 half moon pairs, that is 50 clusters corresponding to 50 individual half moons. Any number of                                half moon pairs can be generated using **gen_moonpairs.py** program.
+3. **groundtruth.csv** -     Contains class labels for data points in **moon_data.csv**.  
 
