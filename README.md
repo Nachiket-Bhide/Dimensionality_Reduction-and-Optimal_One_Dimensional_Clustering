@@ -54,4 +54,4 @@ To execute the program, run **main.py** program. It automatically calls the code
 ## Contact Information
 
 1. Nachiket Bhide - bhiden@uwindsor.ca
-2. Dr.Luis Rueda  - lrueda@uwindsor.ca
+2. Dr. Luis Rueda - lrueda@uwindsor.ca
