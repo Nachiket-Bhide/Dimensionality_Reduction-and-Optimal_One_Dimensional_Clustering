@@ -1,11 +1,26 @@
 # Efficient Clustering via Kernel Principcal Component Analysis and Optimal One Dimensional Clustering
 
 
-## About Project
+## About Research Work
 
-Several techniques are used for clustering of high-dimensional data. Traditionally, clustering approaches are based on performing dimensionality reduction of high-dimensional data followed by classical clustering such as k-means in lower dimensions. However, this approach based on k-means does not guarantee optimality. Moreover, the result of k-means is highly dependent on initialization of cluster centers and hence not repeatable, while not being optimal.
+# Motivation:
 
-To overcome this drawback, an optimal clustering approach in one dimension based on dimensionality reduction is implemented.  The one-dimensional representation of high dimensional data is obtained using Kernel Principal Component Analysis. The one-dimensional representation of the data is then clustered optimally using a dynamic programming algorithm in polynomial time. Clusters in the one-dimensional data are obtained by minimizing the sum of within-class variance while maximizing the sum of between-class variance. 
+  1. Traditional approaches for clustering high dimensional data involve dimensionality reduction followed by classical clustering algorithms such as k-means in             lower dimensions.
+  2. However, approaches based on k-means clustering suffer from the drawbacks and limitations of k-means clustering, namely, high dependency on initialization of cluster centroids, non-repeatability of clustering results. Also, k-means can converge locally and hence does not guarantee optimal clustering.
+
+
+# Proposed Approach:
+
+1. An optimal clustering approach in one dimension based on dimensionality reduction is proposed.
+2. One dimensional representation of high dimensional data is obtained using Kernel Principal Component Analysis using a suitable kernel function such as Radial Basis Function(RBF).
+3. One dimensional representation is then clustered optimally using dynamic programming algorithm in polynomial time
+
+
+# Contribution:
+
+1. Developed a program using Python and C programming languages for implementing proposed clustering approach.
+2. Using Silhouette score as a metric to evaluate quality of clustering, the advantages of proposed approach over traditional k-means based approaches are demonstrated.
+3. For testing the proposed approach, a real world high dimensional dataset and a synthetic two dimensional dataset is used.
 
 
 ## Programming Languages and Libraries
