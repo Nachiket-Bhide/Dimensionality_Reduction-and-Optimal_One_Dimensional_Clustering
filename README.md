@@ -3,20 +3,20 @@
 
 ## About Research Work
 
-# Motivation:
+### Motivation:
 
   1. Traditional approaches for clustering high dimensional data involve dimensionality reduction followed by classical clustering algorithms such as k-means in             lower dimensions.
   2. However, approaches based on k-means clustering suffer from the drawbacks and limitations of k-means clustering, namely, high dependency on initialization of cluster centroids, non-repeatability of clustering results. Also, k-means can converge locally and hence does not guarantee optimal clustering.
 
 
-# Proposed Approach:
+### Proposed Approach:
 
 1. An optimal clustering approach in one dimension based on dimensionality reduction is proposed.
 2. One dimensional representation of high dimensional data is obtained using Kernel Principal Component Analysis using a suitable kernel function such as Radial Basis Function(RBF).
 3. One dimensional representation is then clustered optimally using dynamic programming algorithm in polynomial time
 
 
-# Contribution:
+### Contribution:
 
 1. Developed a program using Python and C programming languages for implementing proposed clustering approach.
 2. Using Silhouette score as a metric to evaluate quality of clustering, the advantages of proposed approach over traditional k-means based approaches are demonstrated.
