@@ -1,4 +1,4 @@
-# Efficient Clustering via Kernel Principcal Component Analysis and Optimal One Dimensional Clustering
+# Efficient Clustering via Kernel Principal Component Analysis and Optimal One Dimensional Clustering
 
 
 ## About Research Work
